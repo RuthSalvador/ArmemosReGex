@@ -149,9 +149,6 @@ function validaContrasenas(password, password2){
   //  return alert (name.value +' '+ lastname.value + ', muchas gracias por registrarse');
 
 
-
-
-
 function ocultar(input){
   var span = input.nextElementSibling;
   span.setAttribute("style","display:none");
