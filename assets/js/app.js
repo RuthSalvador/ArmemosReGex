@@ -157,5 +157,5 @@ function ocultar(input){
 function mostrar(alerta,input){
     var span = input.nextElementSibling;
     span.setAttribute("style","display:block");
-    span.appendChild(document.createTextNode(alerta));
+    span.innerHTML= alerta;
 }
